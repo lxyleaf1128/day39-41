@@ -1,0 +1,24 @@
+#button-area{
+	margin:20px;
+	border:1px solid #ADACAC;
+	width:200px;
+	height:150px;
+}
+button{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin:8px;
+	padding: 0px 18px;
+	background-color: #EF8E2C;
+	color: #fff;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 15px;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+#contABC,#contDEF{
+	text-align: center;
+}

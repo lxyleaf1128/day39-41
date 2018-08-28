@@ -1,0 +1,82 @@
+.name{
+	width:100px;
+	font-family: "Arial Narrow", Arial, sans-serif;
+}
+#region-select{
+	margin-left:10px;
+	width:100px;
+}
+#product-select{
+	width:100px;
+}
+#month-select{
+	width:100px;
+}
+table{
+	border:1px solid #A8A3A3;
+	border-collapse: collapse;
+}
+th,td{
+	width:130px;
+	height:30px;
+}
+th{
+	background-color: #EBF692;
+	border-bottom:1px solid #A8A3A3;
+	border-left: 1px solid #A8A3A3;
+}
+td{
+	text-align: center;
+	border-left: 1px solid #A8A3A3;
+}
+
+
+.edit-div{
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 20px;
+}
+.edit-input {
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 30px;
+  padding: 0;
+  border: none;
+}
+table td.sale:hover {
+  background-image: url(img/edit.png);
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+}
+.verify-item {
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 40px;
+  width: 18px;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+  background-image: url(img/verify.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.cancel-item {
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  left: 60px;
+  width: 18px;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+  background-image: url(img/cancel.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
